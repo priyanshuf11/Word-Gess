@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  
+  background-color: #121213;
+  
+}
+
+.bg-green-500 {
+  background-color: #3d7f30;
+}
+
+.bg-yellow-500 {
+  background-color:#b19f00;
+}
+
+.bg-gray-500 {
+  background-color: #6b7280;
+}
+

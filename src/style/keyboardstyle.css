@@ -1,0 +1,26 @@
+.key{
+    @apply  bg-key_bg w-[48px] h-[58px] mx-[3px] rounded-lg text-white text-2xl font-bold mb-2  pb-1 text-center;
+}
+.sidespace{
+    @apply h-[58px] w-[21px] bg-transparent 
+}
+
+.func_key{
+    @apply w-[89px] h-[65px] bg-key_bg mb-2 rounded-lg text-white text-sm font-bold mx-1 flex items-center justify-center pb-1;
+}
+
+.bg-correct {
+    background-color: #3d7f30;
+  }
+  
+  .bg-misplaced {
+    background-color:#b19f00;
+  }
+  
+  .bg-incorrect {
+    background-color: #404245;
+  }
+  
+  .bg-default {
+    background-color: #000000; /* or whatever default color you prefer */
+  }

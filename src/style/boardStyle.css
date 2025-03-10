@@ -1,0 +1,36 @@
+
+.board-module{
+    @apply w-full h-[360px] flex justify-center items-center mt-[30px];
+    background-color: #121213;
+}
+
+.board{
+    @apply  bg-black w-[340px] h-[360px];
+    background-color: #121213;
+}
+
+.tile{
+   background-color: #121213;
+   transition: background-color 0.5s ease;
+}
+
+.row-module{
+    @apply  w-[320px] h-[52.5px] flex justify-center items-center mx-[10px] my-[5px];
+    background-color: #121213;
+}
+
+.bg-green-500 {
+    background-color: #3d7f30;
+  }
+  
+  .bg-yellow-500 {
+    background-color:#b19f00;
+  }
+  
+  .bg-gray-500 {
+    background-color: #6b7280;
+  }
+  
+  .bg-default {
+    background-color: #000000; /* or whatever default color you prefer */
+  }
